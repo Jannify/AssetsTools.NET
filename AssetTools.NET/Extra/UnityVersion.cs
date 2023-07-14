@@ -6,11 +6,11 @@ namespace AssetsTools.NET.Extra
 {
     public class UnityVersion
     {
-        public int major;
-        public int minor;
-        public int patch;
-        public string type;
-        public int typeNum;
+        public volatile int major;
+        public volatile int minor;
+        public volatile int patch;
+        public volatile string type;
+        public volatile int typeNum;
 
         public UnityVersion() { }
 
